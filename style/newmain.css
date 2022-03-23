@@ -1,0 +1,69 @@
+/******************* GENERAL ********************/
+
+body {
+	font-family: Corbell, Arial, sans-serif;
+	margin: 0;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/******************* HEADER *****************/
+
+#header {
+	background-color: #ffffcc;
+}
+
+h1 {
+	color: blue;
+	background-color: #33cc33;
+	padding: 30px;
+	border: 2px #0000ff solid;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	color: blue;
+	background-color: #33cc33;
+	padding: 30px;
+	border: 2px #0000ff solid;
+	width: 400px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+#nav {
+	background-color: #00ff00;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+}
+
+#nav li a {
+	color: blue;
+}
+
+#nav li:hover {
+	background-color: #ffffcc;
+}
+
+/********************* CONTENT ********************/
+
+#content {
+	width: 300px;
+	margin: 30px auto;
+}
+
+#content li {
+	border-bottom: #00ff00 solid 3px;
+}
